@@ -1,0 +1,16 @@
+{
+    "name": "matisse/php_a2_gr1_twig",
+    "description": "WTF?!",
+    "require": {
+        "twig/twig": "~1.16",
+        "voceconnect/no-stampede-actions": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matisse Achéen",
+            "email": "matissevlp@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
