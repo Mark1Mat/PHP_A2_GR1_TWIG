@@ -10,4 +10,6 @@ $articles = getArticles($link);
 
 require __DIR__.'/_footer.php';
 
-include __DIR__.'/template/articles.php';
+echo $twig->render('articles.html.twig', [
+    'articles' => $articles,
+]);
